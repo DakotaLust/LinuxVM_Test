@@ -5,7 +5,7 @@ orbs:
 jobs:
   build:
     machine: # executor type
-      - image: ubuntu-2004:202010-01
+      image: ubuntu-2004:202010-01
     steps:
       - checkout
       # Add step below to install Ruby version 2.6.3
